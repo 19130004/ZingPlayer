@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ân Music Player</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+            <div class="sidebar">
+                <div class="sidebar-wrapper">
+                    <div class="navbar">
+                        <div class="navbar-brand">
+                            <div class="navbar-item">
+                                <div class="logo">
+                                    <!-- <img src="../../assets/images/logo.png" alt=""> -->
+                                    <!-- <h3>Ân Music Player</h3> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-main">
+                        <ul class="navbar-menu">
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/music-folder.svg" alt="">
+                                    <span>Cá nhân</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/cd.svg" alt="">
+                                    <span>Khám phá</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/bar-chart.svg" alt="">
+                                    <span>#zingchart</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/headphone.svg" alt="">
+                                    <span>Radio</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/feed.svg" alt="">
+                                    <span>Theo dõi</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-divie"></div>
+                    <div class="navbar-sub">
+                        <ul class="navbar-menu">
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/musical-note.svg" alt="">
+                                    <span>Nhạc Mới</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/menu.svg" alt="">
+                                    <span>Thể Loại</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/star.svg" alt="">
+                                    <span>Top 100</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="">
+                                    <img class="navbar-icon-svg" src="./assets/img/youtube.svg" alt="">
+                                    <span>MV</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="vip-banner-sidebar">
+                        <div class="vip-banner-sidebar-text">
+                            Nghe nhạc không quảng cáo <br> cùng kho nhạc VIP
+                        </div>
+                        <div class="vip-banner-sidebar-button">
+                            <a href="">
+                                Nâng cấp vip
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-my-music">
+                        <div class="navbar-my-music-title">Thư Viện</div>
+                        <div class="add-playlist-sidebar">
+                            <div class="add-playlist-button">
+                                <i class="add-playlist-icon fal fa-plus"></i>
+                                Tạo playist mới
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <header class="header">
+                <div class="level">
+                    <div class="level-left">
+                        <div class="prev">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                        <div class="next disabled">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <form action="" class="search">
+                            <div class="search__container">
+                                <div class="search__container-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="search__container-input">
+                                    <input type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV…">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="level-right">
+                        <div class="setting-item">
+                            <div class="setting-item-box">
+                                <img src="./assets/img/tshirt.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-item-box">
+                                <img src="./assets/img/diamond.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-item-box">
+                                <img src="./assets/img/upload (1).svg" alt="">
+                            </div>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-item-box">
+                                <img src="./assets/img/settings.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-item-avatar">
+                                <img class="setting-item-avatar"
+                                    src="https://s120-ava-talk-zmp3.zmdcdn.me/b/7/2/8/1/120/3dc88ee6d7cc973eec9c25a478dc4722.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+            <div class="mainpage">
+                <div class="main-content">
+                    <main class="section" id="body-scroll">
+                        <div class="container">
+                            <div class="playist-music">
+                                <nav class="navbar-music">
+                                    <div class="navbar-container">
+                                        <ul class="navbar-menu">
+                                            <li class="navbar-item ">
+                                                <div class="navbar-link active">
+                                                    <div>Bài Hát</div>
+                                                </div>
+                                            </li>
+                                            <li class="navbar-item">
+                                                <div class="navbar-link">
+                                                    <div>Podcast</div>
+                                                </div>
+                                            </li>
+                                            <li class="navbar-item">
+                                                <div class="navbar-link">
+                                                    <div>Album</div>
+                                                </div>
+                                            </li>
+                                            <li class="navbar-item">
+                                                <div class="navbar-link">
+                                                    <div>MV</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <div class="tablist active">
+                                    <div class="navbar-button">
+                                        <a href="" class="navbar-button__item active">
+                                            Yêu thích
+                                        </a>
+                                        <a href="" class="navbar-button__item">
+                                            Tải lên
+                                        </a>
+                                    </div>
+                                    <div class="library-song">
+                                        <div class="song-list-select">
+                                            <div class="media select-header">
+                                                <div class="media-left">
+                                                    <div class="sort-wrapper">
+                                                        <div class="media-title">Bài hát</div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-content">
+                                                    <div class="media-title">Album</div>
+
+                                                </div>
+                                                <div class="media-right">
+                                                    <div class="sort-wrapper">
+                                                        <div class="media-title">Thời gian</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="playist">
+                                                <div class="playist-list">
+                                                    
+                                                    <h3>Loading ...</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tablist">
+                                    <div class="empty">
+                                        <div class="empty-img podcast"></div>
+                                        <div class="empty-text">Chưa có poscard trong thư viện cá nhân</div>
+                                    </div>
+                                </div>
+                                <div class="tablist">
+                                    <div class="empty">
+                                        <div class="empty-img album"></div>
+                                        <div class="empty-text">Chưa có album trong thư viện cá nhân</div>
+                                    </div>
+                                </div>
+                                <div class="tablist">
+                                    <div class="empty">
+                                        <div class="empty-img music-video"></div>
+                                        <div class="empty-text">Chưa có MV trong thư viện cá nhân</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <div class="playing-bar">
+                <div class="player-controls">
+                    <div class="app-bottom">
+                        <div class="app-bottom-left">
+                            <div class="app-bottom-left-list">
+                                 <!-- CD                -->
+                                <div class="music-img" style="background-image: url('');">
+                                    <div class="allicon ">
+                                        <div class="icon1">
+                                            <i class="ti-music-alt"></i>
+                                        </div>
+                                        <div class="icon2">
+                                            <i class="ti-music"></i>
+                                        </div>
+                                        <div class="icon3">
+                                            <i class="ti-music"></i>
+                                        </div>
+                                        <div class="icon4">
+                                            <i class="ti-music-alt"></i>
+                                        </div>
+                                        <div class="icon5">
+                                            <i class="ti-music"></i>
+                                        </div>
+                                        <div class="icon6">
+                                            <i class="ti-music-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="music-textname">
+                                    <h5></h5>
+                                    <p></p>
+                                </div>
+                                
+                                <div class="music-icon">
+                                    <i class="ti-heart"></i>
+                                    <i class="ti-more"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- controlbar -->
+                        <div class="app-bottom-center">
+                            <div class="app-bottom-center-allbtn">
+                                <div class="app-bottom-center-top">
+                                    <div class="main-bar">
+                                            <div class="music-icon">
+                                                <!-- <i class="ti-control-shuffle active3"></i> -->
+                                                <i class="fas fa-random"></i>
+                                            </div>
+                                            <div class="music-icon">
+                                                <i class="fas fa-step-backward"></i>
+                                            </div>
+                                            <div class="music-icon play-pause ">
+                                                <i class="fas fa-pause icon-pause"></i>
+                                                <i class="fas fa-play icon-play"></i>
+                                            </div>
+                                            <div class="music-icon">
+                                                <i class="fas fa-step-forward"></i>
+                                            </div>
+                                            <div class="music-icon">
+                                                <i class="fas fa-redo"></i>
+                                            </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="app-bottom-center-bot">
+                                    <div class="timemusic">
+                                        <div class="timemusic_list">
+                                            <span class="current"></span>
+                                            <div class="progress-area">
+                                            <div class="progress-bar"></div>
+                                            </div>
+                                            <span class="duration"></span>
+                                        </div>
+                                    </div>
+                                    <audio id="audio" src=""></audio>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="app-bottom-right">
+                            <div class="app-bottom-right-list">
+                                <div class="sub-list">
+                                    <div class="music-icon">
+                                        <!-- <i class="fas fab-youtube"></i> -->
+                                        <i class="fab fa-youtube"></i>
+                                    </div>
+                    
+                                    <div class="music-icon">
+                                        <i class="fas fa-microphone-alt"></i>
+                                    </div>
+                <!--btn volum-->
+                                    <div class="music-icon listvolum">
+                                        <div class="volumbox"> <i class="fas fa-volume-mute"></i>
+                                            <i class="fas fa-volume-up"></i>
+                                        </div>
+                                        <input id="volum" class="volum" type="range" value="100" step="1" min="0" max="100">
+                                    </div>
+                                </div>
+                
+                                <div class="line-h">
+                
+                                </div>
+                
+                                <div class="music-icon">
+                                    <i class="ti-layout-grid2-thumb"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="listAudio"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
