@@ -62,7 +62,7 @@ html {
     margin-bottom: 15px;
 }
 
-.navbar-menu .navbar-item a {
+.navbar-menu .navbar-item div {
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -71,19 +71,23 @@ html {
     text-decoration: none;
 }
 
-.navbar-menu .navbar-item a:hover {
+.navbar-menu .navbar-item div:hover {
     background-color: #393243;
-    ;
+    
 }
-
-.navbar-menu .navbar-item a .navbar-icon-svg {
+.navbar-menu .tab-item.active{
+    background-color: hsla(0,0%,100%,0.1);
+    color: #fff;
+    border-left: 3px solid #7200a1;
+}
+.navbar-menu .navbar-item div .navbar-icon-svg {
     width: 30px;
     height: 30px;
     font-size: 30px;
     margin-right: 10px;
 }
 
-.navbar-menu .navbar-item a span {
+.navbar-menu .navbar-item div span {
     font-size: 20px;
     color: #fff;
     font-weight: 500;
@@ -1128,4 +1132,13 @@ main.section {
 }
 .hide{
     display: none;
+}
+.tab-pane{
+    display: none;
+}
+.tab-item.active{
+    display: block;
+}
+.tab-pane.active{
+    display: block;
 }
