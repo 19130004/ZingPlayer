@@ -397,11 +397,12 @@ main.section {
 .navbar-container .navbar-menu .navbar-link {
     display: block;
     padding: 15px 0;
-    
+    cursor: pointer;
 }
 
 .navbar-container .navbar-menu .navbar-link div {
     color: #dadada;
+    font-size: 14px;
 }
 
 .navbar-container .navbar-menu .navbar-link div:hover {
