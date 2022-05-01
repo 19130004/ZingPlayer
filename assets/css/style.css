@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
 }
 
 figure {
@@ -81,14 +83,14 @@ html {
     border-left: 3px solid #7200a1;
 }
 .navbar-menu .navbar-item div .navbar-icon-svg {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     font-size: 30px;
     margin-right: 10px;
 }
 
 .navbar-menu .navbar-item div span {
-    font-size: 20px;
+    font-size: 14px;
     color: #fff;
     font-weight: 500;
 }
@@ -126,7 +128,7 @@ html {
     font-weight: 500;
     color: #fff;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .vip-banner-sidebar .vip-banner-sidebar-button {
@@ -153,7 +155,7 @@ html {
 
 .navbar-my-music-title {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     margin: 0 28px 8px;
@@ -173,13 +175,13 @@ html {
     background-color: #2a213a;
     outline: none;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 
 }
 
 .add-playlist-icon {
-    font-size: 24px;
+    font-size: 18px;
     margin-right: 10px;
     color: #fff;
 
