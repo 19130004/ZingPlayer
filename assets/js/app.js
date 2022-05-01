@@ -113,6 +113,13 @@ const app = {
             img: 'https://i1.sndcdn.com/artworks-FX9IdYtt4PAA-0-t500x500.jpg',
 
         },
+        {
+            name: 'There’s No One At All',
+            singer: 'Sơn Tùng M-TP',
+            path: './assets/song/12.mp3',
+            img: 'https://i.scdn.co/image/ab67616d00001e0248e90a4c48b31c66e8b0d24f',
+
+        },
     ],
     render: function () {
         const htmls = this.songs.map((song, index) => {
