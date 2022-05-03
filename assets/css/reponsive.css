@@ -288,7 +288,12 @@
     }
     .card-song-name,
     .song-artist {
-        font-size: 10px;
+        font-size: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 177px;
+        line-height: normal;
     }
     .sidebar{
         width: 50px;
