@@ -340,5 +340,9 @@
     .media-right-cha{
         display: none;
     }
-    .media-title{}
+    .btn-expanded {
+        bottom: 70px;
+        right: 6;
+    }
+
 }
