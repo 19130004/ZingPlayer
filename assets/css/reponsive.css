@@ -1,0 +1,339 @@
+/* Mobile & Tablet */
+@media (max-width:1023px) {
+    .btn-expanded {
+        display: block;
+    }
+    .vip-banner-sidebar {
+        display: none;
+    }
+    .navbar-my-music {
+        display: none;
+    }
+    .navbar-menu .navbar-item div span {
+        display: none;
+        justify-content: center;
+    }
+    .navbar-menu .open{
+        display: flex !important;
+    }
+    .sidebar {
+        width: 70px;
+        padding-bottom: 55px;
+    }
+    .sidebar.active{
+        width: 200px;
+    }
+    .navbar-item .logo {
+        width: 45px;
+        height: 45px;
+        background-image: url(https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.6.24/static/media/icon_zing_mp3_60.f6b51045.svg);
+    }
+    .logo.active {
+        width: 120px !important;
+        height: 40px !important;
+        display: inline-block;
+        background: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg) 50%/contain no-repeat;
+    }
+    .navbar-item.active {
+        border-left: none !important;
+    }
+}
+
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .navbar-menu {
+        margin-bottom: 0;
+    }
+
+    .navbar-item {
+        padding: 15px 0;
+        justify-content: center
+    }
+
+    
+
+    /* Header */
+    .header {
+        left: 70px;
+    }
+    .header.active{
+        left: 200px;
+    }
+    .search {
+        min-width: 300px;
+    }
+
+    .setting-item.none {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        padding: 0;
+    }
+    .navbar-brand.active {
+        width: 200px;
+    }
+
+
+    .navbar-brand .navbar-item{
+        padding: 0;
+    }
+    .progress-area {
+        width: 200px;
+    }
+    .app-bottom-right-list{
+        margin-left: 40px !important;
+        margin-right: 10px !important;
+    }
+    main.section{
+        padding:0px 20px;
+    }
+    .BHX-box, .col {
+        width: calc(100% / 4);
+    }
+    .boxlist:last-child {
+        display: none;
+    }
+    .zingChoice:last-child, .boxlist:last-child {
+        display: none;
+    }
+    .zingchat-tab--wrap{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .media-content-chart .album-info {
+        display: none;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .app-bottom-left{
+        display: none;
+    }
+   
+    .navbar-top-vip,
+    .box-vip,
+    .btn-musicplay,
+    .app-bottom-left,
+    .box-nav-items,
+    .app-bottom-right,
+    .app-bottom-left-list {
+        display: none !important;
+    }
+    .app-bottom {
+        justify-content: center !important;
+    }
+    .app-bottom-center {
+        width: 100% !important;
+    }
+    .app-top-right{
+        margin-top: 70px;
+    }
+    .timemusic {
+        margin: 0 10px !important;
+    }
+    
+    .all-musicplay {
+        height: 198px !important;
+    }
+    .btn-uploadmusic {
+        display: none !important;
+    }
+    .buttonplayall {
+        width: 105px !important;
+        font-size: 10px  !important;
+        margin-right: 5px !important;
+    }
+    .textnamemusic {
+        margin-left: 15px !important;
+        font-size:15px !important;
+        align-self: center;
+    }
+    .user-info {
+        /* margin-top: 20px; */
+        width: 100% !important;
+        height: 60% !important;
+    }
+    .user-info-list h2{
+        font-size:25px !important;
+        width: 230px !important;
+    }
+    .user-avt{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+
+    .app-top-right_top{
+        height: 160px !important;
+    }
+    .listbox-r-icon--hiden{
+        display: none;
+    }
+    .slide-item-img:last-child{
+        display: none;
+    }
+    .col{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .boxlist.col {
+        padding-bottom: 12px;
+        width: calc(100% / 3);
+    }
+    .BHX-box{
+        width: calc(100% / 3);
+        padding: 0 3px;
+    }
+    .zingChoice.col {
+        width: calc(100% / 3);
+    }
+
+    
+  
+    .cmt-box__btn{
+        margin: 0 5px;
+    }
+    .cmt-content__description,
+    .cmt-user__icon,
+    .cmt-input{
+        font-size: 14px;
+    }
+    .boxlist__img:hover .class-blur,
+    .BXH-box__body:hover .class-blur{
+        display: none;
+        cursor: pointer;
+    }
+    .discover__content{
+        padding-top: 0;
+    }
+
+    .boxList-title,
+    .BXH-box__heading{
+        font-size: 14px;
+    }
+    .boxlist-description{
+        font-size: 12px;
+    }
+    .boxlist__titile a,
+    .BXH-box__footer a,
+    .boxlist-name{
+        font-size: 13px;
+    }
+    .discover-footer-title{
+        font-size: 11px;
+    }
+    .discover__footer,
+    .zingchat-list,
+    .content-boxList{
+        margin-top: 30px;
+    }
+
+    .box-setting{
+        right: -53px;
+        width: 210px;
+    }
+    .box-setting-item{
+        font-size: 14px;
+    }
+    .zingchat-tab--wrap{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 24px !important;
+    }
+    .zingchat-title{
+        margin-left: 15px;
+    }
+    .zingchat-tab__content{
+        margin-top: 30px !important;
+    }
+    .zingchat-tab__content .zingchat-tab-list{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .zingchat-tab-list__item{
+        padding-left: 0 !important;
+    }
+
+
+    .text-musics p {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .prev{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+    .header{
+        left: 50px;
+        width: 100%;
+        padding: 0 5px ;
+    }
+    .setting-item.hide-mobile{
+        display: none;
+    }
+    main.section{
+        padding:0 5px;
+    }
+    .media{
+        font-size:12px;
+    }
+    .card-song-name,
+    .song-artist {
+        font-size: 10px;
+    }
+    .sidebar{
+        width: 50px;
+    }
+    .navbar-menu .navbar-item div{
+        justify-content: center;
+        margin-left: 10px;
+        padding: 10px 0;
+    }
+    .navbar-menu .navbar-item div.active{
+        justify-content: unset;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 7px 25px;
+        text-decoration: none;
+    }
+    .navbar-brand{
+        padding: 0 0 0 6px;
+    }
+    .logo{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .setting-item-avatar{
+        display: none;
+    }
+    .search__container{
+        width: 300px;
+    }
+    .logo.active{
+        display: none;
+    }
+    .header.active{
+        left: 0;
+    }
+    .progress-area{
+        width: 200px;
+    }
+    .album-info{
+        display: none;
+    }
+    .media-right-cha{
+        display: none;
+    }
+    .media-title{}
+}

@@ -117,3 +117,27 @@ var panes = document.querySelectorAll('.tab-pane');
             panes[index].classList.add('active');
         })
     })
+
+// navbar
+function navbar(){
+    // open
+    var btn_nav = document.querySelector('.scroll-nav');
+    btn_nav.addEventListener('click',() => {
+        document.querySelector('.sidebar').classList.toggle('active');
+        var navbar_text = document.querySelectorAll('.navbar-menu .navbar-item div span')
+            navbar_text.forEach(function(p){
+                    p.classList.toggle('open')
+            })
+        document.querySelector('.logo').classList.toggle('active');
+        document.querySelector('.navbar-brand').classList.toggle('active');
+        document.querySelector('.header').classList.toggle('active');
+        document.querySelector('.scroll-nav i').classList.toggle('icon-flip')
+        document.querySelectorAll('.navbar-menu .navbar-item div').forEach(function(p){
+            p.classList.toggle('active')
+        })
+    })
+
+    // close
+    
+}
+navbar();
